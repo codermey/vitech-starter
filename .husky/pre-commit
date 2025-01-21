@@ -1,0 +1,3 @@
+pnpm lint:lint-staged
+
+pnpm lint:pretty
