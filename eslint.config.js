@@ -3,6 +3,7 @@ import vueTsEslintConfig from '@vue/eslint-config-typescript'
 import pluginVitest from '@vitest/eslint-plugin'
 import pluginCypress from 'eslint-plugin-cypress/flat'
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
+import unocss from '@unocss/eslint-config/flat'
 
 export default [
   {
@@ -48,4 +49,5 @@ export default [
     },
   },
   skipFormatting,
+  unocss,
 ]
