@@ -50,9 +50,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        scss: {
-          api: 'modern-compiler',
-        },
+        api: 'modern-compiler',
       },
     },
   },
